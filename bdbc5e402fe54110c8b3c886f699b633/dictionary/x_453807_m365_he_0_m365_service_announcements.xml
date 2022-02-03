@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="M365 Service Announcements" max_length="40" name="x_453807_m365_he_0_m365_service_announcements" type="collection">
+        <element label="Action required until" max_length="40" name="u_actionrequiredbydatetime" type="glide_date_time"/>
+        <element label="Message" max_length="10000" name="u_body_content" type="html"/>
+        <element label="Category" max_length="40" name="u_category" type="string"/>
+        <element label="End Date" max_length="40" name="u_enddatetime" type="glide_date_time"/>
+        <element label="Expiry Date" max_length="40" name="u_expirydatetime" type="glide_date_time"/>
+        <element display="true" label="Microsoft ID" max_length="40" name="u_id" type="string"/>
+        <element label="Major Change" max_length="40" name="u_ismajorchange" type="boolean"/>
+        <element label="Last Modified" max_length="40" name="u_lastmodifieddatetime" type="glide_date_time"/>
+        <element label="Severity" max_length="40" name="u_severity" type="string"/>
+        <element label="Start Date" max_length="40" name="u_startdatetime" type="glide_date_time"/>
+    </element>
+</database>

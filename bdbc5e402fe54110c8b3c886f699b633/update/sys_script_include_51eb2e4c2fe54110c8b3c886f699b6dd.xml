@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_453807_m365_he_0.insertGlideRecord</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Sets value of field in target table, if colum exsists</description>
+        <name>insertGlideRecord</name>
+        <script><![CDATA[function insertGlideRecord(GlideReference, field, value) {
+    if (GlideReference.isValidField(field)) {
+        GlideReference.setValue(field, value);
+    }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-03 21:48:17</sys_created_on>
+        <sys_id>51eb2e4c2fe54110c8b3c886f699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>insertGlideRecord</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_update_name>sys_script_include_51eb2e4c2fe54110c8b3c886f699b6dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 21:48:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

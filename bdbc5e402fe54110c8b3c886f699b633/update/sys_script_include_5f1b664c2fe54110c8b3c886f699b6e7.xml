@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_453807_m365_he_0.getJSONObjectsViaRest</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Gets JSON Response from defined api and return JSON Objects</description>
+        <name>getJSONObjectsViaRest</name>
+        <script><![CDATA[function getJSONObjectsViaRest(endpoint, objects, api, request) {
+    var pagedR = new sn_ws.RESTMessageV2(api, request);
+    if (endpoint !== null) {
+        pagedR.setEndpoint(endpoint);
+    }
+    var pagedResponse = pagedR.execute();
+    var pagedResponseBody = pagedResponse.getBody();
+    var pagedhttpStatus = pagedResponse.getStatusCode();
+    var pagedObj = JSON.parse(pagedResponseBody);
+    objects = objects.concat(pagedObj["value"]);
+    if (pagedObj["@odata.nextLink"]) {
+        objects = getJSONObjectsViaRest(pagedObj["@odata.nextLink"], objects, api, request);
+    }
+    return objects;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-03 21:46:19</sys_created_on>
+        <sys_id>5f1b664c2fe54110c8b3c886f699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getJSONObjectsViaRest</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_update_name>sys_script_include_5f1b664c2fe54110c8b3c886f699b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 21:46:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

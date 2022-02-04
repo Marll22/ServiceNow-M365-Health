@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">29fd52c3a9223010c0a065f439e661a7</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 07:49:33</sys_created_on>
+        <sys_id>858530902fad4110c8b3c886f699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 07:49:33</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

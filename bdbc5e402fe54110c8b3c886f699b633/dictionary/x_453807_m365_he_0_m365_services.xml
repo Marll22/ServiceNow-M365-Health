@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="M365 Services" max_length="40" name="x_453807_m365_he_0_m365_services" sizeclass="30" type="collection">
+        <element label="ID" max_length="40" name="u_id" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element display="true" label="Service" max_length="40" name="u_service" type="string"/>
+    </element>
+</database>

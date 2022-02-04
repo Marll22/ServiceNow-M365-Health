@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_453807_m365_he_0.parseJSONObject</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Parse JSON Object and write it to a target table. If JSON key exsits in target table it will store the value. </description>
+        <name>parseJSONObject</name>
+        <script><![CDATA[function parseJSONObject(object, target_table) {
+    var JSONImport = new GlideRecord(target_table);
+    JSONImport.initialize();
+    for (var key in object) {
+        if (object.hasOwnProperty(key)) {
+            var field = key.toLowerCase();
+            var actualField = "";
+            var value = "";
+            if (typeof(object[key]) === "object") {
+                if (!Array.isArray(object[key])) {
+                    for (var inner_key in object[key]) {
+                        actualField = ('u_' + field + "_" + inner_key).toLowerCase();
+                        value = object[key][inner_key];
+                        insertGlideRecord(JSONImport, actualField, value);
+                    }
+                }
+            } else {
+                value = object[key].toString();
+                actualField = 'u_' + field;
+            }
+            insertGlideRecord(JSONImport, actualField, value);
+        }
+    }
+    JSONImport.insert();
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-03 21:47:48</sys_created_on>
+        <sys_id>56cb2e4c2fe54110c8b3c886f699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parseJSONObject</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_update_name>sys_script_include_56cb2e4c2fe54110c8b3c886f699b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 21:47:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

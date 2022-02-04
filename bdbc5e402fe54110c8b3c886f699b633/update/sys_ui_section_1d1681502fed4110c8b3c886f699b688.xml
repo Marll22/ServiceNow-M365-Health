@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1d1681502fed4110c8b3c886f699b688" sys_domain="global" table="x_453807_m365_he_0_is_m365_service_announcements" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>e91681502fed4110c8b3c886f699b68e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_startdatetime</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a51605502fed4110c8b3c886f699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_enddatetime</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>291605502fed4110c8b3c886f699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lastmodifieddatetime</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a91605502fed4110c8b3c886f699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>2d1605502fed4110c8b3c886f699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>ad1605502fed4110c8b3c886f699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>211605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ismajorchange</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a11605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>251605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a51605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>291605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>body_content</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a91605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>2d1605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hasattachments</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>ad1605502fed4110c8b3c886f699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actionrequiredbydatetime</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>211605502fed4110c8b3c886f699b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a11605502fed4110c8b3c886f699b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expirydatetime</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>251605502fed4110c8b3c886f699b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:57</sys_created_on>
+            <sys_id>a51605502fed4110c8b3c886f699b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_title</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:31</sys_created_on>
+            <sys_id>b59705902fed4110c8b3c886f699b631</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_id</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:33</sys_created_on>
+            <sys_id>429705902fed4110c8b3c886f699b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:33</sys_created_on>
+            <sys_id>da9789902fed4110c8b3c886f699b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_severity</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:34</sys_created_on>
+            <sys_id>2e97c9902fed4110c8b3c886f699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ismajorchange</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:35</sys_created_on>
+            <sys_id>ea97c9902fed4110c8b3c886f699b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_actionrequiredbydatetime</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:08:35</sys_created_on>
+            <sys_id>3e97c9902fed4110c8b3c886f699b6a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:08:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expirydatetime</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:09:38</sys_created_on>
+            <sys_id>8ad7c9902fed4110c8b3c886f699b6f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:09:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hasattachments</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:09:39</sys_created_on>
+            <sys_id>dad78d902fed4110c8b3c886f699b6e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:09:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_body_contenttype</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:09:39</sys_created_on>
+            <sys_id>52d7cd902fed4110c8b3c886f699b60d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:09:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_body_content</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:11:03</sys_created_on>
+            <sys_id>fa28c1d02fed4110c8b3c886f699b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_453807_m365_he_0_is_m365_service_announcements" sys_domain="global" view="Default view">1d1681502fed4110c8b3c886f699b688</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_453807_m365_he_0_is_m365_service_announcements</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-04 09:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d1681502fed4110c8b3c886f699b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_453807_m365_he_0_is_m365_service_announcements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+            <sys_update_name>sys_ui_section_1d1681502fed4110c8b3c886f699b688</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 09:01:56</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

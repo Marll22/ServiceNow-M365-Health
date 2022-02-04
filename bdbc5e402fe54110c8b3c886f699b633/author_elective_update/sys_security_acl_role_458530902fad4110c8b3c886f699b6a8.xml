@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 07:49:33</sys_created_on>
+        <sys_id>458530902fad4110c8b3c886f699b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_453807_m365_he_0_m365_services.company.admin</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_security_acl display_value="">098530902fad4110c8b3c886f699b6a6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_458530902fad4110c8b3c886f699b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 07:49:33</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</application>
+        <file_path/>
+        <instance_id>93f42d70db41afc0439ef70fbf961921</instance_id>
+        <instance_name>dev72674</instance_name>
+        <name>sys_security_acl_role_458530902fad4110c8b3c886f699b6a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-04 07:49:33</sys_created_on><sys_id>458530902fad4110c8b3c886f699b6a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_453807_m365_he_0_m365_services.company.admin</sys_name><sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package><sys_policy/><sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope><sys_security_acl display_value="">098530902fad4110c8b3c886f699b6a6</sys_security_acl><sys_update_name>sys_security_acl_role_458530902fad4110c8b3c886f699b6a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-04 07:49:33</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-495207985</payload_hash>
+        <record_name>x_453807_m365_he_0_m365_services.company.admin</record_name>
+        <reverted_from/>
+        <source>17841b232f010110c8b3c886f699b65b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-01-21 01:13:14</sys_created_on>
+        <sys_id>cbc753dc2f658110c8b3c886f699b661</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17e7a31d8100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>8bc753dc966581100b41a4d4e1332e61</update_guid>
+        <update_guid_history>8bc753dc966581100b41a4d4e1332e61:-495207985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_453807_m365_he_0_m365_services.company.admin">0fc753dc2f658110c8b3c886f699b663</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 19:38:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>095be550eeb24a90880b277177eb6c84</sys_id>
+        <sys_metadata>458530902fad4110c8b3c886f699b6a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_453807_m365_he_0_m365_services.company.admin</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_scope_delete display_value="">6a765a051ccc4d8ab74e241a5c84f501</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_458530902fad4110c8b3c886f699b6a8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_458530902fad4110c8b3c886f699b6a8">cbc753dc2f658110c8b3c886f699b661</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 19:38:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

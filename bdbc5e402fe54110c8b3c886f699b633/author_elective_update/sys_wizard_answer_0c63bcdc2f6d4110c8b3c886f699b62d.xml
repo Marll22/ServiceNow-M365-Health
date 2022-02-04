@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>M365 Services</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>M365 Services</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">47de16cfa9223010c0a065f439e661ee</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 07:40:12</sys_created_on>
+        <sys_id>0c63bcdc2f6d4110c8b3c886f699b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>M365 Services</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_update_name>sys_wizard_answer_0c63bcdc2f6d4110c8b3c886f699b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 07:40:12</sys_updated_on>
+        <table/>
+        <target_url>x_453807_m365_he_0_m365_services.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</application>
+        <file_path/>
+        <instance_id>93f42d70db41afc0439ef70fbf961921</instance_id>
+        <instance_name>dev72674</instance_name>
+        <name>sys_wizard_answer_0c63bcdc2f6d4110c8b3c886f699b62d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>M365 Services</answer><button_label/><dependent_value/><element/><name>M365 Services</name><next_question/><order>100</order><payload_name/><question display_value="Base Configuration Item" name="Base Configuration Item">47de16cfa9223010c0a065f439e661ee</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-04 07:40:12</sys_created_on><sys_id>0c63bcdc2f6d4110c8b3c886f699b62d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>M365 Services</sys_name><sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package><sys_policy/><sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope><sys_update_name>sys_wizard_answer_0c63bcdc2f6d4110c8b3c886f699b62d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-04 07:40:12</sys_updated_on><table/><target_url>x_453807_m365_he_0_m365_services.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1597178559</payload_hash>
+        <record_name>M365 Services</record_name>
+        <reverted_from/>
+        <source>17841b232f010110c8b3c886f699b65b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-01-21 01:13:14</sys_created_on>
+        <sys_id>4ed438502fad4110c8b3c886f699b682</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17e7a31d8100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>0ed43850a0ad411032f6655b63f0bb82</update_guid>
+        <update_guid_history>0ed43850a0ad411032f6655b63f0bb82:-1597178559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 07:46:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>010c5787d6544d7c80065f174a772a29</sys_id>
+        <sys_metadata>0c63bcdc2f6d4110c8b3c886f699b62d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>M365 Services</sys_name>
+        <sys_package display_value="M365 Health" source="x_453807_m365_he_0">bdbc5e402fe54110c8b3c886f699b633</sys_package>
+        <sys_parent display_value="Base Configuration Item">47de16cfa9223010c0a065f439e661ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="M365 Health">bdbc5e402fe54110c8b3c886f699b633</sys_scope>
+        <sys_scope_delete display_value="">6a765a051ccc4d8ab74e241a5c84f501</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_0c63bcdc2f6d4110c8b3c886f699b62d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_0c63bcdc2f6d4110c8b3c886f699b62d">4ed438502fad4110c8b3c886f699b682</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 07:46:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

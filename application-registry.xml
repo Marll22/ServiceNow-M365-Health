@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-02-06 21:38:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Application Registry</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bba54a452f610110c8b3c886f699b6ff</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-02-06 21:38:14</sys_created_on>
+<sys_id>67568a452f610110c8b3c886f699b6c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-02-06 21:38:14</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>oauth_entity_profile_e9e250dddb8af810311f4f630596195f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>client_credentials</grant_type><jwt_provider/><name>MS Graph</name><oauth_entity display_value="AzureAD ServieNow Integration">75b1549ddb8af810311f4f630596191e</oauth_entity><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-17 08:12:28</sys_created_on><sys_id>e9e250dddb8af810311f4f630596195f</sys_id><sys_mod_count>5</sys_mod_count><sys_name>MS Graph</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>oauth_entity_profile_e9e250dddb8af810311f4f630596195f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-06 21:37:17</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+<payload_hash>-1478790585</payload_hash>
+<remote_update_set display_value="Application Registry">67568a452f610110c8b3c886f699b6c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-02-06 21:38:14</sys_created_on>
+<sys_id>23568a452f610110c8b3c886f699b6c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ed0f8426a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-02-06 21:38:14</sys_updated_on>
+<table/>
+<target_name>MS Graph</target_name>
+<type>OAuth Entity Profile</type>
+<update_domain>global</update_domain>
+<update_guid>39260285656101106ea39afc3976712c</update_guid>
+<update_guid_history>39260285656101106ea39afc3976712c:-1478790585,6d9123ff6f598910191c0e670544e943:-1814418325,9381e7ffe05989109d71c38542d6e699:1920299047,e5185ae15d8a3c10e8dbca2ee04eb250:-1814418325,657792e1788a3c1015ef08266a79cf8f:4829201,6de250dd978af8108c8d4167d4cf8361:899257515</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>oauth_entity_75b1549ddb8af810311f4f630596191e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url/><certificate_url/><client_id>YOUR-CLIENT-ID</client_id><client_secret>YOUR-CLIENT-SECRET</client_secret><client_uuid>b1b1549ddb8af810311f4f630596191e</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>client_credentials</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>AzureAD ServieNow Integration</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://reutertest.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-17 08:12:28</sys_created_on><sys_id>75b1549ddb8af810311f4f630596191e</sys_id><sys_mod_count>6</sys_mod_count><sys_name>AzureAD ServieNow Integration</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>oauth_entity_75b1549ddb8af810311f4f630596191e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-06 21:36:17</sys_updated_on><token_url>https://login.microsoftonline.com/b6d929bc-af4b-4bde-a87d-507a31ee17bf/oauth2/v2.0/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+<payload_hash>252062675</payload_hash>
+<remote_update_set display_value="Application Registry">67568a452f610110c8b3c886f699b6c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-02-06 21:38:14</sys_created_on>
+<sys_id>6b568a452f610110c8b3c886f699b6c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ed0f7556c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-02-06 21:38:14</sys_updated_on>
+<table/>
+<target_name>AzureAD ServieNow Integration</target_name>
+<type>Application Registries</type>
+<update_domain>global</update_domain>
+<update_guid>cfe58a458e610110c04ef654edf3c6aa</update_guid>
+<update_guid_history>cfe58a458e610110c04ef654edf3c6aa:252062675,0f1163ff4f5989108f2d863e5d6f720e:-1654334320,cd085ae10f8a3c10722129bd9442f84c:-1739426005,fe061c1199caf810d546a993fc5e7182:235082155,7395d01131caf810306b8f7332885573:738168428,b67558dd4a8af81001d00a7f7578c284:-1811100684,25e250dd7c8af8109bb20b1c4500fa63:235082155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>oauth_entity_scope_09f250dddb8af810311f4f63059619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><in_default_profile>true</in_default_profile><name>Graph</name><oauth_entity display_value="AzureAD ServieNow Integration">75b1549ddb8af810311f4f630596191e</oauth_entity><oauth_entity_scope>https://graph.microsoft.com/.default</oauth_entity_scope><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-17 08:13:28</sys_created_on><sys_id>09f250dddb8af810311f4f63059619f2</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Graph</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>oauth_entity_scope_09f250dddb8af810311f4f63059619f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-06 21:36:49</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+<payload_hash>1126162317</payload_hash>
+<remote_update_set display_value="Application Registry">67568a452f610110c8b3c886f699b6c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-02-06 21:38:14</sys_created_on>
+<sys_id>e3568a452f610110c8b3c886f699b6c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ed0f7d4740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-02-06 21:38:14</sys_updated_on>
+<table/>
+<target_name>Graph</target_name>
+<type>OAuth Entity Scope</type>
+<update_domain>global</update_domain>
+<update_guid>7e06ce451f6101103e5070af83540a23</update_guid>
+<update_guid_history>7e06ce451f6101103e5070af83540a23:1126162317,74816bff76598910c7351e5be4af058b:704011149,fa71abffc9598910f4040687bad83e27:654682439,0a7696a12d8a3c1036a192eab9f00ca6:-1510565761,9844d09d068af810cc928d5ba16178fc:64429020,582350ddee8af810511df0c8a0b94de3:-294510404</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

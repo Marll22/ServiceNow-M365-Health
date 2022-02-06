@@ -51,3 +51,8 @@ Depending on your configuration you may need "global administrator" permission i
 ### Import M365 Health app into ServicNow
 
 1.  Create a Fork of this Github Project to import the app in ServiceNow. How you can do this you can read here: [Fork Repository and Import Application for the Application Properties Module](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/new_to_servicenow/APP_Lab_ForkRepo_rome)
+
+### Configure the App
+1. GoTo "System Web Services" -> "Outbound" -> "REST Message"
+2. Select "Microsoft Graph - M365 ServiceHealth" and verify that "Microsoft Graph" from "AzureAD ServieNow Integration" is selected.
+3. Click on "Get OAuth Token" to check if authentication is working.

@@ -2,6 +2,11 @@
 ## Introduction
 This application will integrate the Microsoft M365 Service Health &amp; Message Center in [ServiceNow](https://servicenow.com). This app is in beta phase! I do not recommend to install this to a test or production system. Please use a [ServiceNow Development Instance](https://developer.servicenow.com/dev.do) to test this application.
 
+## Prerequisites
+- A running [ServiceNow Development Instance](https://developer.servicenow.com/dev.do) with Rome release
+- A own [GitHub](https://github.com) Account
+- A Azure-AD Account (Company account. Personal Accounts are not supported!)
+
 # Preperation
 
 This application is using Microsoft Graph v1.0 API to get ServiceHealth and ServiceAnnouncements from Microsoft. You need to register a application in Azure-AD and give it the permission:
@@ -45,11 +50,4 @@ Depending on your configuration you may need "global administrator" permission i
 
 ### Import M365 Health app into ServicNow
 
-1.  Open "Connections &amp; Credentials" -> "Credentials"
-2.  Create a new one
-3.  Select "Basic Auth Credentials"
-4.  Select a name like "GitHub Public"
-5.  leave username and password blank
-6.  Save it
-7.  Open "App Engine Studio" 
-8.  Select Import App ![Import App](images/app-studio-import-app.png?raw=true "Import App")
+1.  Create a Fork of this Github Project to import the app in ServiceNow. How you can do this you can read here: [Fork Repository and Import Application for the Application Properties Module](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/new_to_servicenow/APP_Lab_ForkRepo_rome)

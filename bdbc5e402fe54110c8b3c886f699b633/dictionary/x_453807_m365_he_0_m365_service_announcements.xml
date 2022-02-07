@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="M365 Service Announcements" max_length="40" name="x_453807_m365_he_0_m365_service_announcements" sizeclass="232" type="collection">
+    <element audit="true" extends="task" label="M365 Service Announcements" max_length="40" name="x_453807_m365_he_0_m365_service_announcements" sizeclass="237" type="collection">
         <element label="Action required until" max_length="40" name="u_actionrequiredbydatetime" type="glide_date_time"/>
         <element label="Message" max_length="10000" name="u_body_content" type="html"/>
         <element label="Category" max_length="40" name="u_category" type="string"/>

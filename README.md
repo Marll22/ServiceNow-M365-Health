@@ -3,9 +3,9 @@
 This application will integrate the Microsoft M365 Service Health &amp; Message Center in [ServiceNow](https://servicenow.com). This app is in beta phase! I do not recommend to install this to a test or production system. Please use a [ServiceNow Development Instance](https://developer.servicenow.com/dev.do) to test this application.
 
 ## Prerequisites
-- A running [ServiceNow Development Instance](https://developer.servicenow.com/dev.do) with Rome release
-- A own [GitHub](https://github.com) Account
-- A Azure-AD Account (Company account. Personal Accounts are not supported!)
+- [ServiceNow Development Instance](https://developer.servicenow.com/dev.do) with Rome release
+- Own [GitHub](https://github.com) account
+- Azure-AD company account (Personal Accounts are not supported!)
 
 # Preperation
 
@@ -56,3 +56,16 @@ Depending on your configuration you may need "global administrator" permission i
 1. GoTo "System Web Services" -> "Outbound" -> "REST Message"
 2. Select "Microsoft Graph - M365 ServiceHealth" and verify that "Microsoft Graph" from "AzureAD ServieNow Integration" is selected.
 3. Click on "Get OAuth Token" to check if authentication is working.
+
+### Configure Sync-Interval
+At beta stage of this app it will synchronize ServiceHealth and ServiceAnnouncements every 30 minutes. 
+To force synchronisatzion go to "System Definition" -> "Scheduled Jobs" and execute 
+-   REST M365 - Load Service Announcements
+-   REST M365 - Load Service Health
+
+# Using the App
+At this beta stage the app is configured to be used with itil role. if you like to test it with a non-administrative user, please assign itil role to the user.
+
+Search M365 in Navigation bar to find the application.
+
+![SNOW M365 Application Nav](images/m365-app-nav.png?raw=true "SNOW M365 Application Nav")
